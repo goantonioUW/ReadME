@@ -4,7 +4,11 @@ var fs = require("fs");
 function generateMarkdown(data) {
   return `# ${data.title}
 
-`;
+  ##Description
+  ${data.description}
+  
+  ${data.projectImage}
+  `;
 }
 
 module.exports = generateMarkdown;

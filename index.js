@@ -7,32 +7,32 @@ const generateMarkdown = require("./utils/generateMarkdown");
 const questions = [
   {
     message: "What is the title of the project?",
-    name: "**Title**",
+    name: "title",
     type: "input",
   },
   {
     message: "Summary of what your project is and who it is for.",
-    name: "**Description**",
+    name: "description",
     type: "input",
   },
   {
     message: "How do you install the app?",
-    name: "**Instalation steps**",
+    name: "instalation",
     type: "input",
   },
   {
     message: "Add an image or gif of your project.",
-    name: "**Project image**",
+    name: "projectImage",
     type: "input",
   },
   {
-    message: "Contact information.",
-    name: "**Contact me**",
+    message: "contactInformation.",
+    name: "Contactme",
     type: "input",
   },
   {
     message: "Include live links of the deployed project.",
-    name: "**Live links**",
+    name: "liveLinks",
     type: "input",
   },
 ];
@@ -50,6 +50,7 @@ function writeToFile(fileName, data) {
 function init() {
   inquirer.prompt(questions).then((response) => {
     writeToFile("README_GEN.md", response);
+    console.log(response);
   });
 }
 
