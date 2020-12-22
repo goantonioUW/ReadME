@@ -1,6 +1,7 @@
-#${data.title}
+# ${data.title}
 
-##Description
+## Description
+
 ${data.description}
 
 ${data.projectImage}
