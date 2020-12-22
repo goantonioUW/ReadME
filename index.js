@@ -16,23 +16,18 @@ const questions = [
     type: "input",
   },
   {
-    message: "How do you install the app?",
-    name: "instalation",
-    type: "input",
-  },
-  {
     message: "Add an image or gif of your project.",
     name: "projectImage",
     type: "input",
   },
   {
-    message: "contactInformation.",
-    name: "Contactme",
+    message: "Include live links of the deployed project.",
+    name: "liveLinks",
     type: "input",
   },
   {
-    message: "Include live links of the deployed project.",
-    name: "liveLinks",
+    message: "contactInformation.",
+    name: "contactMe",
     type: "input",
   },
 ];

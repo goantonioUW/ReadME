@@ -4,10 +4,17 @@ var fs = require("fs");
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ##Description
+  # Description
   ${data.description}
   
+  # Screenshot
   ${data.projectImage}
+
+  # Live link
+  ${data.liveLinks}
+
+  # Contact me
+  ${data.contactMe}
   `;
 }
 
