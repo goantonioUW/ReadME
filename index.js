@@ -13,12 +13,12 @@ const questions = [
   {
     message: "Summary of what your project is and who it is for.",
     name: "description",
-    type: "input",
+    type: "editor",
   },
   {
-    message: "Add an image or gif of your project.",
-    name: "projectImage",
-    type: "input",
+    message: "How do you use the application?",
+    name: "usage",
+    type: "editor",
   },
   {
     message: "Include live links of the deployed project.",

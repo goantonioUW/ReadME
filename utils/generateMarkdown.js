@@ -10,10 +10,14 @@ function generateMarkdown(data) {
   # Screenshot
   ${data.projectImage}
 
+  # Usage
+  ${data.usage}
+
   # Live link
   ${data.liveLinks}
 
   # Contact me
+
   ${data.contactMe}
   `;
 }
