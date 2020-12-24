@@ -3,16 +3,28 @@ const { type } = require("os");
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
 
+//, Table of Contents,
+// Installation, Usage, License, Contributing, Tests, and Questions
 // array of questions for user
 const questions = [
+  {
+    message: "Add the Table of Contents",
+    name: "contents",
+    type: "editor",
+  },
   {
     message: "What is the title of the project?",
     name: "title",
     type: "input",
   },
   {
-    message: "Summary of what your project is and who it is for.",
+    message: "Add a description of your project.",
     name: "description",
+    type: "editor",
+  },
+  {
+    message: "How do you install the application?",
+    name: "installation",
     type: "editor",
   },
   {
@@ -21,13 +33,18 @@ const questions = [
     type: "editor",
   },
   {
-    message: "Include live links of the deployed project.",
-    name: "liveLinks",
+    message: "Add a license to your readme.",
+    name: "license",
+    type: "editor",
+  },
+  {
+    message: "Who is contributing to the project?",
+    name: "contributing",
     type: "input",
   },
   {
-    message: "contactInformation.",
-    name: "contactMe",
+    message: "An example of the working project.",
+    name: "test",
     type: "input",
   },
 ];

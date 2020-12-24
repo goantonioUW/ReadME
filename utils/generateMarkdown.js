@@ -2,23 +2,30 @@ var fs = require("fs");
 
 // function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `
+  
+  # ${data.title}
 
-  # Description
+  # Table Of Contents
+  ${data.contents}
+
+  # Description 
   ${data.description}
   
-  # Screenshot
-  ${data.projectImage}
+  # Installation
+  ${data.installation}
 
   # Usage
   ${data.usage}
 
-  # Live link
-  ${data.liveLinks}
+  # Licence
+  ${data.license}
 
-  # Contact me
+  # Contributing
+  ${data.contributing}
 
-  ${data.contactMe}
+  # Example
+  ${data.test}
   `;
 }
 
