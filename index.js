@@ -8,11 +8,6 @@ const generateMarkdown = require("./utils/generateMarkdown");
 // array of questions for user
 const questions = [
   {
-    message: "Add the Table of Contents",
-    name: "contents",
-    type: "editor",
-  },
-  {
     message: "What is the title of the project?",
     name: "title",
     type: "input",
@@ -22,6 +17,12 @@ const questions = [
     name: "description",
     type: "editor",
   },
+  {
+    message: "Add the Table of Contents",
+    name: "contents",
+    type: "editor",
+  },
+
   {
     message: "How do you install the application?",
     name: "installation",
@@ -33,9 +34,20 @@ const questions = [
     type: "editor",
   },
   {
-    message: "Add a license to your readme.",
+    message: "What is your programs License?",
     name: "license",
-    type: "editor",
+    type: "list",
+    choices: [
+      "Apache License 2.0",
+      new inquirer.Separator(),
+      "GNU General Public License v3.0",
+      new inquirer.Separator(),
+      "MIT License",
+      new inquirer.Separator(),
+      "Mozilla Public License 2.0",
+      new inquirer.Separator(),
+      "The Unlicense",
+    ],
   },
   {
     message: "Who is contributing to the project?",
@@ -45,6 +57,11 @@ const questions = [
   {
     message: "An example of the working project.",
     name: "test",
+    type: "input",
+  },
+  {
+    message: "What is your E-mail address?",
+    name: "questions",
     type: "input",
   },
 ];
