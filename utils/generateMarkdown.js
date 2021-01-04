@@ -6,26 +6,40 @@ function generateMarkdown(data) {
   
   # ${data.title}
 
-  # Table Of Contents
-  ${data.contents}
+  ## Table Of Contents
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Example](#example)
+  - [Questions](#questions)
 
-  # Description 
+  ## Description 
   ${data.description}
   
-  # Installation
+  ## Installation
   ${data.installation}
 
-  # Usage
+  ## Usage
   ${data.usage}
 
-  # Licence
+  ## Licence
   ${data.license}
 
-  # Contributing
+  ## Contributing
+  To contribute please email me and I will add you here. 
   ${data.contributing}
 
-  # Example
+  ## Example
+  This is a video of the finished application
   ${data.test}
+
+  ## Questions
+  Please reach out to me at:
+  ${data.questions}
+
+
   `;
 }
 

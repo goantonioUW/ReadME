@@ -18,12 +18,6 @@ const questions = [
     type: "editor",
   },
   {
-    message: "Add the Table of Contents",
-    name: "contents",
-    type: "editor",
-  },
-
-  {
     message: "How do you install the application?",
     name: "installation",
     type: "editor",
@@ -31,7 +25,7 @@ const questions = [
   {
     message: "How do you use the application?",
     name: "usage",
-    type: "editor",
+    type: "input",
   },
   {
     message: "What is your programs License?",
