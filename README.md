@@ -1,18 +1,45 @@
 # ReadMe Generator
-# Description
-This is a ReadMe generator that uses the termanal to ask you questions and the input you provide will be formatted into a ReadMe file. We used inquirer npm for this project.
 
-# Usage
-To use this you need to install the Inquirer NPM package. Once you have done that you will need to open up your termanal and run node index.js. Next you will answer the questions in the termanal. There is an option to use the editor for answers that are longer than a few sentences. After answering all of the questions you will see success in the termanal and there will be a readME file created for you.
+## Table Of Contents
 
-# Link to the repository
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Example](#example)
+- [Questions](#questions)
 
-1. Fork the repository from the link below
-2. Clone the repo to your computer via git
-3. Open the project files with the text editor of your choice.
-4. Install npm dependencies: Inquire
+## Description
 
-https://github.com/goantonioUW/ReadME
+This is a ReadMe generator that will quickly format and create a ReadMe file for you. All you must do is run the index.js file in the terminal and answer the questions and prompts.
 
-# Contact me
-Goantonio31@outlook.com
+## Installation
+
+1. Fork the repository
+2. Clone the repo to your computer
+3. Open the repo in the editor of your choice
+4. Open the terminal and install inquirer
+5. Run the index.js file in the terminal and follow the questions
+
+## Usage
+
+First you need to install inquirer then run the index.js file in the terminal. Follow the questions and prompts. Once complete you will see the formatted ReadMe file in your folder.
+
+## Licence
+
+MIT License
+
+## Contributing
+
+To contribute please email me and I will add you here.
+
+## Example
+
+This is a video of the finished application
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/4lI7Mf6ZDlM/0.jpg)](https:www.youtube.com/watch?v=4lI7Mf6ZDlM)
+
+## Questions
+
+Please reach out to me at:
+Goantonio31@gmail.com
