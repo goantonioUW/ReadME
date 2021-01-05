@@ -37,7 +37,8 @@ To contribute please email me and I will add you here.
 ## Example
 
 This is a video of the finished application
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/4lI7Mf6ZDlM/0.jpg)](https:www.youtube.com/watch?v=4lI7Mf6ZDlM)
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/4lI7Mf6ZDlM/0.jpg)](https://www.youtube.com/watch?v=4lI7Mf6ZDlM)
 
 ## Questions
 
